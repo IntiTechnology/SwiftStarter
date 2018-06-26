@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B36AE1088BC0F0B3A870BAA /* Pods_SwiftStarter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2395F43D72CDCBCF45344085 /* Pods_SwiftStarter.framework */; };
 		CD2F8AA420AFAB7000FADC08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F8AA320AFAB7000FADC08 /* AppDelegate.swift */; };
 		CD2F8AA620AFAB7000FADC08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F8AA520AFAB7000FADC08 /* ViewController.swift */; };
 		CD2F8AA920AFAB7000FADC08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2F8AA720AFAB7000FADC08 /* Main.storyboard */; };
 		CD2F8AAB20AFAB7000FADC08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2F8AAA20AFAB7000FADC08 /* Assets.xcassets */; };
 		CD2F8AAE20AFAB7000FADC08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2F8AAC20AFAB7000FADC08 /* LaunchScreen.storyboard */; };
+		CD2F8ABD20AFADD600FADC08 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F8ABC20AFADD600FADC08 /* NetworkService.swift */; };
+		CD2F8AC520B0FDE100FADC08 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F8AC420B0FDE100FADC08 /* Bindable.swift */; };
+		CD2F8AC720BA288200FADC08 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F8AC620BA288200FADC08 /* Constants.swift */; };
+		CD2F8AC920BA2AD100FADC08 /* RestaurantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F8AC820BA2AD100FADC08 /* RestaurantService.swift */; };
+		CD2F8ACB20BA319A00FADC08 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F8ACA20BA319A00FADC08 /* Restaurant.swift */; };
+		CD3E9E9320E1BE310061EA88 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3E9E9120E1BE310061EA88 /* FirstViewController.swift */; };
+		CD3E9E9420E1BE310061EA88 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD3E9E9220E1BE310061EA88 /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2395F43D72CDCBCF45344085 /* Pods_SwiftStarter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftStarter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FC7597D827EB4F0C393776 /* Pods-SwiftStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStarter.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStarter/Pods-SwiftStarter.release.xcconfig"; sourceTree = "<group>"; };
 		CD2F8AA020AFAB7000FADC08 /* SwiftStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2F8AA320AFAB7000FADC08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD2F8AA520AFAB7000FADC08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,14 @@
 		CD2F8AAA20AFAB7000FADC08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD2F8AAD20AFAB7000FADC08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD2F8AAF20AFAB7000FADC08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2F8ABC20AFADD600FADC08 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CD2F8AC420B0FDE100FADC08 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		CD2F8AC620BA288200FADC08 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CD2F8AC820BA2AD100FADC08 /* RestaurantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantService.swift; sourceTree = "<group>"; };
+		CD2F8ACA20BA319A00FADC08 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		CD3E9E9120E1BE310061EA88 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CD3E9E9220E1BE310061EA88 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		D18F90F5F98B75FFDB478E5D /* Pods-SwiftStarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStarter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStarter/Pods-SwiftStarter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B36AE1088BC0F0B3A870BAA /* Pods_SwiftStarter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		598A0D6BB8E8F84D3C7B53DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D18F90F5F98B75FFDB478E5D /* Pods-SwiftStarter.debug.xcconfig */,
+				B5FC7597D827EB4F0C393776 /* Pods-SwiftStarter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7276EAC81987670BE3D6E1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2395F43D72CDCBCF45344085 /* Pods_SwiftStarter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD2F8A9720AFAB6F00FADC08 = {
 			isa = PBXGroup;
 			children = (
 				CD2F8AA220AFAB7000FADC08 /* SwiftStarter */,
 				CD2F8AA120AFAB7000FADC08 /* Products */,
+				598A0D6BB8E8F84D3C7B53DB /* Pods */,
+				B7276EAC81987670BE3D6E1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,69 @@
 		CD2F8AA220AFAB7000FADC08 /* SwiftStarter */ = {
 			isa = PBXGroup;
 			children = (
+				CD2F8AC320B0FDB400FADC08 /* Helper */,
+				CD2F8AB620AFAB8F00FADC08 /* Controller */,
+				CD2F8AB520AFAB7800FADC08 /* View */,
+				CD2F8AB720AFAB9F00FADC08 /* ViewModel */,
+				CD2F8AB920AFAC0400FADC08 /* Model */,
+				CD2F8AB820AFABA900FADC08 /* Service */,
 				CD2F8AA320AFAB7000FADC08 /* AppDelegate.swift */,
 				CD2F8AA520AFAB7000FADC08 /* ViewController.swift */,
 				CD2F8AA720AFAB7000FADC08 /* Main.storyboard */,
 				CD2F8AAA20AFAB7000FADC08 /* Assets.xcassets */,
 				CD2F8AAC20AFAB7000FADC08 /* LaunchScreen.storyboard */,
 				CD2F8AAF20AFAB7000FADC08 /* Info.plist */,
+				CD2F8AC620BA288200FADC08 /* Constants.swift */,
 			);
 			path = SwiftStarter;
+			sourceTree = "<group>";
+		};
+		CD2F8AB520AFAB7800FADC08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD2F8AB620AFAB8F00FADC08 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD3E9E9120E1BE310061EA88 /* FirstViewController.swift */,
+				CD3E9E9220E1BE310061EA88 /* FirstViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD2F8AB720AFAB9F00FADC08 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CD2F8AB820AFABA900FADC08 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CD2F8ABC20AFADD600FADC08 /* NetworkService.swift */,
+				CD2F8AC820BA2AD100FADC08 /* RestaurantService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CD2F8AB920AFAC0400FADC08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD2F8ACA20BA319A00FADC08 /* Restaurant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD2F8AC320B0FDB400FADC08 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CD2F8AC420B0FDE100FADC08 /* Bindable.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD2F8AB220AFAB7000FADC08 /* Build configuration list for PBXNativeTarget "SwiftStarter" */;
 			buildPhases = (
+				385B53D6ECAEEA025A23D9AA /* [CP] Check Pods Manifest.lock */,
 				CD2F8A9C20AFAB7000FADC08 /* Sources */,
 				CD2F8A9D20AFAB7000FADC08 /* Frameworks */,
 				CD2F8A9E20AFAB7000FADC08 /* Resources */,
+				908F18B1DBC29A020DAC6F5C /* [CP] Embed Pods Frameworks */,
+				372E1D9390085A5E295FA2EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,10 +222,65 @@
 				CD2F8AAE20AFAB7000FADC08 /* LaunchScreen.storyboard in Resources */,
 				CD2F8AAB20AFAB7000FADC08 /* Assets.xcassets in Resources */,
 				CD2F8AA920AFAB7000FADC08 /* Main.storyboard in Resources */,
+				CD3E9E9420E1BE310061EA88 /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		372E1D9390085A5E295FA2EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftStarter/Pods-SwiftStarter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		385B53D6ECAEEA025A23D9AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftStarter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		908F18B1DBC29A020DAC6F5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftStarter/Pods-SwiftStarter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftStarter/Pods-SwiftStarter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD2F8A9C20AFAB7000FADC08 /* Sources */ = {
@@ -137,7 +288,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD2F8AA620AFAB7000FADC08 /* ViewController.swift in Sources */,
+				CD2F8AC520B0FDE100FADC08 /* Bindable.swift in Sources */,
 				CD2F8AA420AFAB7000FADC08 /* AppDelegate.swift in Sources */,
+				CD3E9E9320E1BE310061EA88 /* FirstViewController.swift in Sources */,
+				CD2F8ACB20BA319A00FADC08 /* Restaurant.swift in Sources */,
+				CD2F8AC720BA288200FADC08 /* Constants.swift in Sources */,
+				CD2F8AC920BA2AD100FADC08 /* RestaurantService.swift in Sources */,
+				CD2F8ABD20AFADD600FADC08 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +429,7 @@
 		};
 		CD2F8AB320AFAB7000FADC08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D18F90F5F98B75FFDB478E5D /* Pods-SwiftStarter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +445,7 @@
 		};
 		CD2F8AB420AFAB7000FADC08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5FC7597D827EB4F0C393776 /* Pods-SwiftStarter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
